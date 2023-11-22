@@ -20,12 +20,12 @@ def send_email(sender_email, receiver_email, password, subject, body):
         print(f"Error: {e}")
 
 # Usage
-sender = "Miguel.am.Gomez23@gmail.com"
-receiver = "mgomez139@my.scccd.edu"
-app_password = "qmkz yosx ddhn eeaz"  # Consider using a more secure method to store and retrieve this; from sender
-subject = "11/22/23 Message to chris!"
-body = """ This should go through at 11:28AM
-Fall winter, sumer spring
+sender = "christophercampbell559@gmail.com"
+receiver = "0978162@my.scccd.edu"
+app_password = "lsba qpti jcnp twdn"  # Consider using a more secure method to store and retrieve this; from sender
+subject = "11/22/23 second Message to chris 1137!"
+body = """ This should go through at 11:37
+Test 11/22/23 1137
 """
 
 send_email(sender, receiver, app_password, subject, body)
